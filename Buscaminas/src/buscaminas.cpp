@@ -11,7 +11,8 @@ int main(){
 		cout << "Introduce numero de filas y columnas (>=4) (separados por espacio): ";
 		cin >> filas_user;
 		cin >> columnas_user;
-	}while(filas_user < 4 && columnas_user < 4);
+	}
+	while(filas_user < 4 && columnas_user < 4);
 
 	auxminas = (filas_user*columnas_user)/2;
 
